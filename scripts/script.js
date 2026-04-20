@@ -7,7 +7,7 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
 const letters = "01";
-const fontSize = 28;
+const fontSize = 32;
 const columns = canvas.width / fontSize;
 
 const drops = [];
@@ -34,7 +34,7 @@ function draw() {
     }
 }
 
-setInterval(draw, 40);
+setInterval(draw, 70);
 
 window.addEventListener("resize", () => {
     canvas.width = window.innerWidth;
