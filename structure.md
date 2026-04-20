@@ -3,10 +3,8 @@ domain/
 │
 ├── CNAME
 ├── index.html
-│
-├── documentation/
-│   ├── README.md
-│   ├── structure.md
+├── README.md
+├── structure.md
 │
 ├── scripts/
 │   ├── script.js
